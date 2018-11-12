@@ -1,5 +1,5 @@
 # Helper Method
-require 'pry'
+
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
@@ -24,6 +24,7 @@ WIN_COMBINATIONS = [
      
     board[win_index_1] == board[win_index_2] && board[win_index_2] == board[win_index_3] &&
     board[win_index_1] != " " 
+<<<<<<< HEAD
     end
   end
   def full?(board)
@@ -61,3 +62,8 @@ WIN_COMBINATIONS = [
   
   
   
+=======
+   #  binding.pry
+    end
+  end
+>>>>>>> 2d3f8fe3524cdf51200a723dd4254b361a4acf0a
